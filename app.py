@@ -205,4 +205,4 @@ def del_log(tracker_id, uid, lid):
 
 if __name__ == '__main__':
   # Run the Flask app
-  app.run(debug=True)
+  app.run(host='0.0.0.0', debug=True)
