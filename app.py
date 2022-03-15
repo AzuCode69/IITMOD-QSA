@@ -6,7 +6,6 @@ from flask_sqlalchemy import SQLAlchemy
 import matplotlib
 matplotlib.use('Agg')
 from matplotlib import pyplot as plt
-from matplotlib import dates as mpdt
 
 
 app = Flask(__name__)
